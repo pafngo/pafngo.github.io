@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clean-Up Drive 2025</title>
+  <link rel="stylesheet" href="/projects/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Sticky Navbar -->
+  <header class="navbar">
+    <div class="logo">🌿 Clean-Up Drive</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#why">Why</a></li>
+        <li><a href="#event">Event Info</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="section hero">
+    <div class="content">
+      <h1>Clean-Up Drive 2025</h1>
+      <p>Join us in cleaning and greening our surroundings 🌍</p>
+      <div class="btn-group">
+        <a href="#event" class="btn">See Event Details</a>
+        <a href="https://www.instagram.com/pehliaashango" target="_blank" class="btn secondary">Follow for Updates</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Section -->
+  <section id="why" class="section highlight">
+    <h2>🌱 Why Should You Care?</h2>
+    <div class="grid">
+      <div class="card reveal">
+        <h3>Protect Nature</h3>
+        <p>Help clean our streets and public spaces.</p>
+      </div>
+      <div class="card reveal">
+        <h3>Raise Awareness</h3>
+        <p>Be part of a movement that spreads sustainability.</p>
+      </div>
+      <div class="card reveal">
+        <h3>Plant the Future</h3>
+        <p>We’ll plant trees and create greener areas together.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Event Info -->
+  <section id="event" class="section">
+    <h2>📍 Event Details</h2>
+    <div class="event-card reveal">
+      <h3>📌 South Moti Bagh, New Delhi</h3>
+      <ul>
+        <li>🗓️ <strong>Date:</strong> May 4, 2025</li>
+        <li>⏰ <strong>Time:</strong> 7:00 AM – 12:00 PM</li>
+        <li>📍 <strong>Meeting Point:</strong> In front of Gurudwara Moti Bagh Sahib</li>
+        <li>🎒 <strong>We Provide:</strong> Gloves, trash bags, tools & water</li>
+        <li>🙌 <strong>Led by:</strong> @silly.sensei & @naturalhege</li>
+      </ul>
+      <p class="cta-note">🚶‍♂️ Just show up — no registration needed!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Made with 💚 by Pehli Aasha Foundation</p>
+    <p>In collaboration with 
+      <a href="https://www.instagram.com/silly.sensei" target="_blank">@silly.sensei</a>, 
+      <a href="https://www.instagram.com/naturalhege" target="_blank">@naturalhege</a>, and 
+      <a href="https://www.instagram.com/pehliaashango" target="_blank">@pehliaashango</a>
+    </p>
+  </footer>
+
+  <!-- Reveal Animation -->
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('show');
+      });
+    });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
