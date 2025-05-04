@@ -64,15 +64,21 @@ h2 {
 .cta-btn {
     background-color: #ffffff;
     color: #2a7d4f;
-    padding: 0.8rem 1.5rem;
-    border-radius: 30px;
+    padding: 0.8rem 1.8rem;
+    border-radius: 50px;
+    border: 2px solid #2a7d4f;
     font-weight: 600;
-    transition: background-color 0.3s, color 0.3s;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(42, 125, 79, 0.1);
 }
 
 .cta-btn:hover {
     background-color: #2a7d4f;
     color: #ffffff;
+    box-shadow: 0 6px 12px rgba(42, 125, 79, 0.2);
+    transform: translateY(-2px);
 }
 
 /* Sections */

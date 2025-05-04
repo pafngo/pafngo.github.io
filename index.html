@@ -233,6 +233,18 @@
       function toggleRibbonNav() {
         document.getElementById("ribbonNav").classList.toggle("show");
       }
+        // Close hamburger menu on link click
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      document.getElementById('nav-toggle').checked = false;
+    });
+  });
+    // Close hamburger menu on link click
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      document.getElementById('nav-toggle').checked = false;
+    });
+  });
     </script>
   </body>
 </html>
