@@ -9,16 +9,17 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
     <!-- Navbar -->
     <header>
       <div class="navbar">
         <div class="logo">Pehli Aasha</div>
-
         <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-
-        <!-- Move nav below checkbox -->
         <nav>
           <ul class="nav-links">
             <li><a href="#home">Home</a></li>
@@ -26,18 +27,12 @@
             <li><a href="#initiatives">Initiatives</a></li>
             <li><a href="#involved">Get Involved</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li>
-              <a href="https://twitter.com/Founder_Nitesh" target="_blank">X</a>
-            </li>
-            <li>
-              <a href="https://instagram.com/pehliaashango" target="_blank"
-                >IG</a
-              >
-            </li>
+            <li><a href="https://twitter.com/Founder_Nitesh" target="_blank">X</a></li>
+            <li><a href="https://instagram.com/pehliaashango" target="_blank">IG</a></li>
           </ul>
         </nav>
-
         <label for="nav-toggle" class="nav-toggle-label">
           <span></span>
         </label>
@@ -53,46 +48,58 @@
       </div>
     </section>
 
-    <!-- About Us -->
-    <section class="about" id="about">
-      <h2>About Us</h2>
-      <p class="mission">
-        <strong>Mission:</strong> Founded by
-        <a href="https://instagram.com/nitesh_ray_official"
-          >@nitesh_ray_official</a
-        >, Pehli Aasha Foundation is dedicated to uplifting underprivileged
-        communities through education, health services, and social welfare
-        programs.
-      </p>
-      <p class="vision">
-        <strong>Vision:</strong> To create a society where every individual has
-        the opportunity to lead a dignified life.
-      </p>
-
-      <div class="team">
-        <h3>Our Team</h3>
-        <ul>
-          <li>
-            <strong>Founder:</strong> Nitesh Kumar Ray (<a
-              href="https://instagram.com/nitesh_ray_official"
-              >@nitesh_ray_official</a
-            >)
-          </li>
-          <li>
-            <strong>President:</strong> Shivam Kumar (<a
-              href="https://instagram.com/i_amshivamkumar"
-              >@i_amshivamkumar</a
-            >)
-          </li>
-          <li>
-            <strong>Social Media Director:</strong> Maheshwar S Chhaunkar (<a
-              href="https://instagram.com/chhaunkarr"
-              >@chhaunkarr</a
-            >)
-          </li>
-        </ul>
+<!-- About Us -->
+<section class="about" id="about">
+  <h2>About Us</h2>
+  
+  <div class="grid">
+    <!-- Mission and Vision in one card -->
+    <div class="mission-vision-card">
+      <div class="card">
+        <h3>Mission & Vision</h3>
+        <div class="mission">
+          <h4>Mission</h4>
+          <p>
+            Founded by Nitesh Ray, Pehli Aasha Foundation is dedicated to uplifting underprivileged communities through education, health services, and social welfare programs.</p><br>
+          </p>
+        </div>
+        <div class="vision">
+          <h4>Vision</h4>
+          <p>
+            To create a society where every individual has the opportunity to lead a dignified life.
+          </p>
+        </div>
       </div>
-    </section>
+    </div>
+    
+    <!-- Core Team in one card -->
+    <div class="card about-card">
+      <h3>Our Core Team</h3>
+      <ul>
+        <li><strong>Founder:</strong> Nitesh Kumar Ray (<a href="https://instagram.com/nitesh_ray_official">@nitesh_ray_official</a>)</li>
+        <li><strong>President:</strong> Shivam Kumar (<a href="https://instagram.com/i_amshivamkumar">@i_amshivamkumar</a>)</li>
+        <li><strong>Social Media Director:</strong> Maheshwar S Chhaunkar (<a href="https://instagram.com/chhaunkarr">@chhaunkarr</a>)</li>
+      </ul>
+    </div>
+    
+    <!-- Extended Core Team in one card -->
+    <div class="card about-card">
+      <h3>Extended Core Team</h3>
+      <ul>
+        <li><strong>Nisha Giri</strong> – Team Manager</li>
+        <li><strong>Manish Mathur</strong> – Delhi State Vice President</li>
+        <li><strong>Vanshika Khhowal</strong> – SAC President</li>
+        <li><strong>Om Veer Singh</strong> – CVS President</li>
+        <li><strong>Anshu</strong> – SVC President</li>
+        <li><strong>Pulkit Yadav</strong> – ARSD President</li>
+        <li><strong>Vipin Gupta</strong> – MLNC President</li>
+        <li><strong>Vidhi Singh</strong> – Delhi State President</li>
+        <li><strong>Abhay Rana</strong> – Team Manager</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 
     <!-- Initiatives -->
     <section class="initiatives" id="initiatives">
@@ -100,17 +107,11 @@
       <div class="grid">
         <div class="card">
           <h3>Educational Drives</h3>
-          <p>
-            Programs aimed at providing quality education to underprivileged
-            children.
-          </p>
+          <p>Programs aimed at providing quality education to underprivileged children.</p>
         </div>
         <div class="card">
           <h3>Health Camps</h3>
-          <p>
-            Organizing medical check-ups and health awareness sessions in rural
-            areas.
-          </p>
+          <p>Organizing medical check-ups and health awareness sessions in rural areas.</p>
         </div>
         <div class="card">
           <h3>Clothing Donation</h3>
@@ -123,7 +124,7 @@
       </div>
     </section>
 
-    <!-- Current Projects / Drives -->
+    <!-- Projects -->
     <section class="projects" id="projects">
       <h2>Current Projects & Drives</h2>
       <div class="grid">
@@ -131,38 +132,59 @@
           <div class="card">
             <h3>Clean Up India Drive 2025</h3>
             <p>
-              The Pehli Aasha Foundation, in collaboration with @silly.sensei
-              and powered by @naturalhege, is leading a clean-up drive on May 4,
-              2025, in South Moti Bagh, New Delhi. Activities include litter
-              collection, tree planting, and spreading awareness about
-              recycling, encouraging everyone to be part of the change.
+              The Pehli Aasha Foundation, in collaboration with @silly.sensei and powered by @naturalhege, is leading a clean-up drive on May 4, 2025, in South Moti Bagh, New Delhi. Activities include litter collection, tree planting, and spreading awareness about recycling.
             </p>
           </div>
         </a>
-
         <div class="card">
-          <h3>Project</h3>
-          <p>
-            A project description goes here. This is a placeholder text to give
-            an idea of what the project is about.
-          </p>
+          <h3>Project Manzil</h3>
+          <p>Empowering women through skill development and entrepreneurship.</p>
         </div>
         <div class="card">
-          <h3>Project</h3>
-          <p>
-            A project description goes here. This is a placeholder text to give
-            an idea of what the project is about.
-          </p>
+          <h3>Project Pragati</h3>
+          <p>Education for underprivileged children and dropout recovery programs.</p>
         </div>
         <div class="card">
-          <h3>Project</h3>
-          <p>
-            A project description goes here. This is a placeholder text to give
-            an idea of what the project is about.
-          </p>
+          <h3>Project Bezubaan</h3>
+          <p>Welfare and care for stray and speechless animals.</p>
         </div>
       </div>
     </section>
+
+<!-- Achievements -->
+<section class="achievements" id="achievements">
+  <h2>Our Achievements</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>International Women’s Day Celebration</h3>
+      <p>Award received on stage at Vishwa Yuvak Kendra.</p>
+    </div>
+    <div class="card">
+      <h3>Youth Festival</h3>
+      <p>Members won top places in public speaking and cultural performances.</p>
+    </div>
+    <div class="card">
+      <h3>GYPC Foundation Day</h3>
+      <p>Distributed 300 bags and documents to attendees.</p>
+    </div>
+    <div class="card">
+      <h3>Swachh Bharat Abhiyan</h3>
+      <p>Cleanliness drive featured in media.</p>
+    </div>
+    <div class="card">
+      <h3>Co-founder Nitish Ray Award</h3>
+      <p>Awarded for contributions to women empowerment.</p>
+    </div>
+    <div class="card">
+      <h3>Medical Supplies Distribution</h3>
+      <p>Partnered with NSS SVC for distribution of medical supplies.</p>
+    </div>
+    <div class="card">
+      <h3>5th Foundation Day</h3>
+      <p>Celebrated with Padma Shri recipient Jitendra Singh Shunty.</p>
+    </div>
+  </div>
+</section>
 
     <!-- Get Involved -->
     <section class="involved" id="involved">
@@ -170,15 +192,11 @@
       <div class="grid">
         <div class="card">
           <h3>Volunteer</h3>
-          <p>
-            Join us in our programs and make a direct impact on communities.
-          </p>
+          <p>Join us in our programs and make a direct impact on communities.</p>
         </div>
         <div class="card">
           <h3>Donate</h3>
-          <p>
-            Support us with a monetary contribution through our secure portal.
-          </p>
+          <p>Support us with a monetary contribution through our secure portal.</p>
         </div>
         <div class="card">
           <h3>Partner with Us</h3>
@@ -190,20 +208,9 @@
     <!-- Contact -->
     <section class="contact" id="contact">
       <h2>Contact Us</h2>
-      <p>
-        <strong>Address:</strong> Plot No-22, Krishna Society, Ghaziabad, India
-        201004
-      </p>
-      <p>
-        <strong>Email:</strong>
-        <a href="mailto:contact@pehliaasha.org">contact@pehliaasha.org</a>
-      </p>
+      <p><strong>Address:</strong> Plot No-22, Krishna Society, Ghaziabad, India 201004</p>
+      <p><strong>Email:</strong> <a href="mailto:contact@pehliaasha.org">contact@pehliaasha.org</a></p>
       <p><strong>Phone:</strong> +91-XXXXXXXXXX</p>
-      <!-- Font Awesome in <head> (if not already included) -->
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      />
 
       <div class="social-icons">
         <a href="https://instagram.com/pehliaashango" target="_blank">
